@@ -12,8 +12,13 @@ body {
   font-family: 'Source Serif 4', serif;
 }
 
-h1, h2, .site-title {
+h1, .site-title {
     font-family: Melanzane;
+    color: #1C4220;
+}
+
+h2, h3 {
+    font-family: 'Roboto Flex', sans-serif;
     color: #1C4220;
 }
 
@@ -21,6 +26,33 @@ section#header {
     background: #B2E275;
 }
 
-.navbar, .topbar, .top-bar {
-    border-color: #1C4220 !important;
+section#header > div {
+    border-bottom-color: #1C4220 !important;
+}
+
+a {
+    color: #1C4220 !important;
+}
+
+.btn-primary {
+    color: #B2E275 !important;
+    background-color: #1C4220 !important;
+}
+
+label, button.more-facets__more, button.more-facets__less {
+    color: #1C4220 !important;
+    border-color: #5E7930 !important;
+}
+
+li.active.page-item > a.page-link {
+    background-color: #B2E275 !important;
+}
+
+#tabs a.nav-link.active {
+    background-color: #1C4220 !important;
+}
+
+#tabs a.nav-link {
+    background-color: #5E7930 !important;
+    color: #B2E275 !important;
 }

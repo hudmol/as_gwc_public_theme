@@ -10,11 +10,27 @@
 
 body {
   font-family: 'Source Serif 4', serif;
+  color: #1C4220;
 }
 
-h1, .site-title {
+a {
+    color: #1C4220 !important;
+}
+
+h1 {
     font-family: Melanzane;
     color: #1C4220;
+}
+
+.site-title {
+    font-family: Melanzane;
+    color: #B2E275 !important;
+    font-size: 2em;
+    float: right;
+}
+
+.site-title > a {
+    color: #B2E275 !important;
 }
 
 h2, h3 {
@@ -23,20 +39,21 @@ h2, h3 {
 }
 
 section#header {
-    background: #B2E275;
+    background: #1C4220;
 }
 
 section#header > div {
-    border-bottom-color: #1C4220 !important;
+    border-bottom-color: #5E7930 !important;
 }
 
-a {
-    color: #1C4220 !important;
+div.top-bar {
+    font-weight: bold;
 }
 
 .btn-primary {
     color: #B2E275 !important;
     background-color: #1C4220 !important;
+    font-weight: bold;
 }
 
 label, button.more-facets__more, button.more-facets__less {
@@ -55,4 +72,18 @@ li.active.page-item > a.page-link {
 #tabs a.nav-link {
     background-color: #5E7930 !important;
     color: #B2E275 !important;
+}
+
+#header .logo {
+    float: left;
+}
+
+.record-type-badge.repository {
+    color: #DB61C2;
+    border-color: #DB61C2;
+}
+
+.record-type-badge.resource {
+    color: #618CDB;
+    border-color: #618CDB;
 }

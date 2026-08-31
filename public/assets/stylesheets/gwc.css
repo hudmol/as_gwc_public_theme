@@ -26,7 +26,6 @@ h1 {
     font-family: Melanzane;
     color: #B2E275 !important;
     font-size: 2em;
-    float: right;
 }
 
 .site-title > a {
@@ -72,10 +71,6 @@ li.active.page-item > a.page-link {
 #tabs a.nav-link {
     background-color: #5E7930 !important;
     color: #B2E275 !important;
-}
-
-#header .logo {
-    float: left;
 }
 
 .record-type-badge.repository {

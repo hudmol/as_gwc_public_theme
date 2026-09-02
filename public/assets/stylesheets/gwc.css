@@ -78,7 +78,32 @@ li.active.page-item > a.page-link {
     border-color: #DB61C2;
 }
 
-.record-type-badge.resource {
-    color: #618CDB;
-    border-color: #618CDB;
+.resource {
+    color: #618CDB !important;
+    border-color: #618CDB !important;
+}
+
+.digital_object {
+    color: #502B3A !important;
+    border-color: #502B3A !important;
+}
+
+.accession {
+    color: #ff9640 !important;
+    border-color: #ff9640 !important;
+}
+
+.subject {
+    color: #2B2E4F !important;
+    border-color: #2B2E4F !important;
+}
+
+.agent {
+    color: #D8601E !important;
+    border-color: #D8601E !important;
+}
+
+.classification {
+    color: #D48F29 !important;
+    border-color: #D48F29 !important;
 }
